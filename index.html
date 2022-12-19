@@ -9,16 +9,35 @@
     <title>Login</title>
 </head>
 <body>
-    <div>
-    <form action="" id="form-login">
-        <label for="login" id="labellogin">Login</label>
-        <input type="text" id="login" name="login"><br>
-        <label for="password" id="labelpassword">Password</label>
-        <input type="text" id="password" name="password"><br>
-        <input type="button" value="Login">
+    <div class="bg" aria-hidden="true">
+        <div class="bg__dot"></div>
+        <div class="bg__dot"></div>
+    </div>
+    <form class="form" autocomplete="off">
+        <div class="form__icon" aria-hidden="true"></div>
+        <div class="form__input-container">
+            <input
+                aria-label="User"
+                class="form__input"
+                type="text"
+                id="user"
+                placeholder=" "
+            />
+            <label class="form__input-label" for="user">Login</label>
+        </div>
+        <div class="form__input-container">
+            <input
+                aria-label="Password"
+                class="form__input"
+                type="password"
+                id="password"
+                placeholder=" "
+            />
+            <label class="form__input-label" for="password">Password</label>
+        </div>
+        <div class="form__spacer" aria-hidden="true"></div>
+        <button class="form__button">Log in</button>
     </form>
-</div>
-<div id="form"></div>
-
+    
 </body>
 </html>
