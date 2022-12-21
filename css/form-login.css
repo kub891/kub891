@@ -12,11 +12,7 @@
 
 body {
     align-items: center;
-    background: linear-gradient(
-        to top right,
-        var(--color-bg-dark),
-        var(--color-bg-light)
-    );
+   background-color: black;
     color: #fff;
     display: flex;
     font-family: Helvetica, sans-serif;
