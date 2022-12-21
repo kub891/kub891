@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+#bar{
+  position: absolute;
+  bottom: 92%;
+  left: 92%;
+}
+
 @font-face {
   font-family: 'Chivo';
   src: url(..\fonts\ChivoMono-BlackItalic.ttf);
@@ -11,6 +21,8 @@
 body{
   background-color: black;
 }
+
+
 
 #main-baner{
   color: white;

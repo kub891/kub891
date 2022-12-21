@@ -1,3 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+#index-button{
+  border-radius: 50px;
+  padding: 1rem;
+  font-family: 'Avenir Next';
+  font-size: 1rem;
+  padding: .4rem 1.5rem;
+  color: white;
+  border: solid 3px transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px rgb(0, 0, 0) inset;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(#000000c0, #434343);
+  z-index: 1;
+  left: 92%;
+  bottom: 92%;
+  position: absolute;
+}
+
+#index-button:hover{
+  box-shadow: none;
+  color: white;
+}
+
+
 .full-wh {
   position: absolute;
   top: 0px;
