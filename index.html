@@ -16,9 +16,13 @@
     </div>
     <header id="baner">
         <h1 id="main-baner">Welcome to UnityHacks</h1>
-        <form action=".\kub891\login.html">
-            <input type="submit" id="login-button" value="Login"></input>
-        </form>
+        
+            <button id="login-button" onclick="login()">Login</button>
+     <script>
+        function login(){
+            window.location.href = "login.html";
+        }
+     </script>
     </header>
 </body>
 </html>
